@@ -1,0 +1,33 @@
+{
+  "name": "dawidf/supervisor-config-generator",
+  "description": "Generator for supervisor configuration",
+  "type": "library",
+  "keywords": [
+    "supervisor",
+    "supervisor configuration",
+    "supervisor generator"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "authors": [
+    {
+      "name": "Dawid Francuziak",
+      "email": "dawidf120@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Enis\\SupervisorConfigGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Enis\\SupervisorConfigGenerator\\Tests\\": "tests/"
+    }
+  }
+}
